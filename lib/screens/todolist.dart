@@ -43,7 +43,7 @@ class ToDoList extends StatelessWidget {
             icon: Icon(
               Icons.delete,
               color: Colors.white,
-              size: 22,
+              size: 23,
             ),
             onPressed: () {
               todoDelete(toDo.id);

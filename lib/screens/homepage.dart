@@ -125,9 +125,9 @@ class _HomePageState extends State<HomePage> {
   }
 
   //todo change function
-  void handleTodoChange(ToDo toDoChange) {
+  void handleTodoChange(ToDo todochange) {
     setState(() {
-      toDoChange.isDone = !toDoChange.isDone;
+      todochange.isDone = !todochange.isDone;
     });
   }
 
